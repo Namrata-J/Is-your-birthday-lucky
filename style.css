@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    background-color: rgb(151, 27, 37);
+}
+.outside-container{
+    width: 100%;
+    margin: auto;
+}
+.inside-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    background-image: url(../images/color.png);
+    background-position: center;
+    box-shadow: 0px 0px 9px rgb(250, 209, 209);
+}
+.inside-container label{
+display: block;
+text-align: center;
+margin-top: 0.7rem;
+font-weight: bold;
+font-size: 0.9rem;
+font-family: sans-serif;
+color: rgb(29, 44, 75);
+}
+input{
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    border: none;
+}
+button{
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+}
+button:hover{
+    background-color: rgb(160, 83, 83);
+}
+.inside-container h1{
+    text-align: center;
+    color: rgb(247, 247, 248);
+    text-shadow: 0px 0px 10px rgb(27, 26, 26);
+}
+.inside-container button{
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+.text{
+text-align: center;
+margin-top: 2rem;
+font-size: 1.2rem;
+font-family:sans-serif;
+color: rgb(63, 23, 23);
+text-shadow: 0px 0px 10px rgb(250, 209, 209);
+}
+footer{
+    height:180px;
+    background-color:rgb(83, 6, 21);
+    margin-top: 150px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+footer p{
+    padding-top: 1.5rem;
+    margin: 0rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(245, 224, 178);
+    padding-bottom: 0rem;
+}
+#connect{
+    font-size: small;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+    margin: 0.5rem;
+    display: inline-block;
+}
+a:hover{
+    background-color: rgb(160, 83, 83);
+    padding: 0.4rem;
+    border-radius: 1rem;
+}
+footer div{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0rem;
+}
