@@ -1,95 +1,114 @@
-body{
-    margin: 0px;
-    background-color: rgb(151, 27, 37);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: rgb(219 210 186);
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.outside-container{
-    width: 100%;
-    margin: auto;
+
+body {
+    background-color: rgb(82, 11, 11);
 }
-.inside-container{
-    width: 90%;
-    margin: auto;
-    margin-top: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 1rem;
-    background-image: url(../images/color.png);
-    background-position: center;
-    box-shadow: 0px 0px 9px rgb(250, 209, 209);
-}
-.inside-container label{
-display: block;
-text-align: center;
-margin-top: 0.7rem;
-font-weight: bold;
-font-size: 0.9rem;
-font-family: sans-serif;
-color: rgb(29, 44, 75);
-}
-input{
-    max-width: 50%;
-    display: block;
-    margin: auto;
-    border: none;
-}
-button{
-    border-radius: 0.5rem;
-    padding: 0.5rem 0.8rem;
-}
-button:hover{
-    background-color: rgb(160, 83, 83);
-}
-.inside-container h1{
+
+.inside-container label,
+.inside-container h2,
+.text,
+footer div  {
     text-align: center;
-    color: rgb(247, 247, 248);
-    text-shadow: 0px 0px 10px rgb(27, 26, 26);
 }
-.inside-container button{
+
+.inside-container {
+    margin: 2rem auto;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+}
+
+.secret-data,
+.inside-container  {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 90%;
+}
+
+.inside-container label {
+    color: inherit;
+    margin: 0.5rem 0rem 0.2rem 0rem;
+}
+
+.inside-container label,
+input,
+.inside-container button {
     display: block;
+    font-size: 0.8rem;
+}
+
+input {
+    border: none;
+    max-width: 50%;
+    outline: none;
+    padding: 0.3rem 0.5rem;
+}
+
+input,
+.inside-container button {
     margin: auto;
-    margin-top: 1.5rem;
 }
-.text{
-text-align: center;
-margin-top: 2rem;
-font-size: 1.2rem;
-font-family:sans-serif;
-color: rgb(63, 23, 23);
-text-shadow: 0px 0px 10px rgb(250, 209, 209);
+
+input,
+button {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
 }
-footer{
-    height:180px;
-    background-color:rgb(83, 6, 21);
-    margin-top: 150px;
+
+button {
+    border: 1px solid rgba(219, 210, 186, 0.2);
+    padding: 0.4rem 0.5rem;
+}
+
+button:hover {
+    background: rgba(219, 210, 186, 0.1);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.inside-container button {
+    margin-top: 1rem;
+}
+
+.text {
+    font-size: 0.9rem;
+}
+
+footer {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    bottom: 1rem;
+    position: absolute;
+    width: 100%;
 }
-footer p{
-    padding-top: 1.5rem;
+
+.secret-data {
+    margin: auto;
+}
+
+footer p {
+    padding-top: 0.5rem;
     margin: 0rem;
     text-align: center;
     font-size: 0.8rem;
-    color: rgb(245, 224, 178);
     padding-bottom: 0rem;
 }
-#connect{
+
+#connect {
     font-size: small;
 }
-a{
-    text-decoration: none;
+
+a {
     color: white;
+    display: inline-block;
     font-size: smaller;
     margin: 0.5rem;
-    display: inline-block;
-}
-a:hover{
-    background-color: rgb(160, 83, 83);
-    padding: 0.4rem;
-    border-radius: 1rem;
-}
-footer div{
-    width: 70%;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 0rem;
+    text-decoration: none;
 }
